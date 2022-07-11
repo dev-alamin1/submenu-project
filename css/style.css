@@ -33,4 +33,9 @@
     /* display inline block  na korle, sudhu matro left right paddig peto, tai inline kora */
     padding: 10px 20px;
     color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-menu>ul>li:hover{
+    background-color: #81ecec;
 }
