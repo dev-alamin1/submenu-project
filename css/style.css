@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+
+.main-menu{
+    background-color: #81ecec;
+}
+
+/* main menu ul style none */
+
+.main-menu ul{
+    list-style-type: none;
+}
