@@ -18,3 +18,10 @@
 .main-menu>ul>li{
     float: left;
 }
+
+/* fix nav background color and height*/
+.main-menu>ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
