@@ -39,3 +39,9 @@
 .main-menu>ul>li:hover{
     background-color: #81ecec;
 }
+
+
+.main-menu ul li ul li a{
+    text-decoration: none;
+    color: #fff;
+}
