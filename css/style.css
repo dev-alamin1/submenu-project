@@ -70,3 +70,8 @@
     background-color:#636e72;
     display: block;
 }
+
+
+.main-menu>ul>li:hover ul{
+    display: block;
+}
