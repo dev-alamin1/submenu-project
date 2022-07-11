@@ -11,6 +11,7 @@
 
 .main-menu ul{
     list-style-type: none;
+    position: relative;
 }
 
 /* list item float */
@@ -44,4 +45,27 @@
 .main-menu ul li ul li a{
     text-decoration: none;
     color: #fff;
+}
+
+.main-menu ul ul{
+   background-color: rgb(34, 30, 30);
+   position: absolute;
+   top:40px;
+}
+
+
+.main-menu ul ul li{
+    width: 168px;
+}
+
+.main-menu ul ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-menu ul ul li a:hover{
+    color: #fff;
+    background-color:#636e72;
+    display: block;
 }
