@@ -4,7 +4,7 @@
 }
 
 .main-menu{
-    background-color: #81ecec;
+    background-color: #636e72;
 }
 
 /* main menu ul style none */
@@ -24,4 +24,13 @@
     content: '';
     display: block;
     clear: both;
+}
+
+/* clear under from list item */
+.main-menu>ul>li>a{
+    text-decoration: none;
+    display: inline-block; 
+    /* display inline block  na korle, sudhu matro left right paddig peto, tai inline kora */
+    padding: 10px 20px;
+    color: azure;
 }
