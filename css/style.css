@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
 }
 
 .main-menu{
@@ -11,4 +11,10 @@
 
 .main-menu ul{
     list-style-type: none;
+}
+
+/* list item float */
+
+.main-menu>ul>li{
+    float: left;
 }
